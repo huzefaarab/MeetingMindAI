@@ -117,3 +117,15 @@ Possible future improvements include:
 - Calendar integration
 - Multi-meeting memory
 - Agentic AI features
+
+## Technology Stack (Version 1)
+
+| Component | Technology |
+|-----------|------------|
+| Programming Language | Python 3.13 |
+| User Interface | Streamlit |
+| Large Language Model | Google Gemini |
+| Version Control | Git |
+| Remote Repository | GitHub |
+| Python Environment | venv |
+| Package Manager | pip |
