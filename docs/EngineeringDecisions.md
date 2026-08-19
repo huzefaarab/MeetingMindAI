@@ -35,10 +35,11 @@ Accepted
 
 ### Decision 4
 
-The project will use a dedicated Python virtual environment (`venv`) and a `requirements.txt` file for dependency management.
+Decision:
+The project will use Python's built-in virtual environment (venv) and a requirements.txt file for dependency management.
 
 Reason:
-Every contributor should work with the same Python dependencies without affecting the system-wide Python installation.
+Using an isolated virtual environment ensures consistent dependencies across all development machines while preventing conflicts with the system-wide Python installation. The requirements.txt file allows the entire development environment to be recreated with a single command.
 
 Status:
 Accepted
